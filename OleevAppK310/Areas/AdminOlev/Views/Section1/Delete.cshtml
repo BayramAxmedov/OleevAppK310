@@ -1,0 +1,7 @@
+﻿<h3>Are you sure want to delete item?</h3>
+@model Section1
+<form method="post">
+    <input type="hidden" asp-for="Id">
+    <button class="btn btn-danger" type="submit">Delete</button>
+<a asp-action="index" class="btn btn-warning">Cancel</a>
+</form>
